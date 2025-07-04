@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Победа</title>
+    <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <script defer src="assets/js/main.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <!-- header -->
+    <header class="open">
+        <div class="h-up ">
+            <a href="index.html"><img src="assets/logo/logo.svg" alt="logo" class="logo container"></a>
+        </div>
+        <div class="h-down ">
+            <div class="h-down-box container">
+                <button class="header-burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+                <hr class="h-hr">
+                <p class="conf-p conf-pos-block">Политика конфиденциальности → </p>
+
+                <nav class="h-nav ">
+                    <div class="header-list ul">
+
+                        <div class="li"><a href="about.html">О компании</a></div>
+                        <div class="accordion" id="accordion-1">
+                            <div class="accordion__item">
+                                <div class="h-accordion accordion__header li">
+                                    <a class="h-list-cat">Каталог</a>
+                                    <div class="submenu accordion__body">
+                                        <div class="submenu-box">
+                                            <div class="submenu-sub">
+                                                <a href="" class="submenu-sub-all">ВСЕ</a>
+                                                <a href="">Шлема</a>
+                                                <a href="">Ботинки</a>
+                                                <a href="">Сапоги</a>
+                                                <a href="">Краги</a>
+                                            </div>
+                                            <div class="submenu-sub">
+                                                <a href="">Лонгсливы</a>
+                                                <a href="">Поло</a>
+                                                <a href="">Бриджи</a>
+                                                <a href="">Рединготы</a>
+                                                <a href="">Фраки</a>
+                                            </div>
+                                            <div class="submenu-sub">
+                                                <a href="">Перчатки</a>
+                                                <a href="">Аксессуары</a>
+                                                <a href="">Хлысты</a>
+                                                <a href="">Гольфы</a>
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="li"><a href="contact.html">Контакты</a></div>
+                    </div>
+                    <p class="conf-p conf-pos-none">Политика конфиденциальности → </p>
+                </nav>
+                <div class="avto-reg-box ">
+                    <a href="#" class="btn orange-btn" id="regBtn">Регистрация</a>
+                    <img src="assets/images/header/avto.svg" alt="avto" class="avto" id="avtoBtn">
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <div class="banner">
+        <div class="container">
+            <div class="banner-txt" data-aos="fade-right" data-aos-duration="800">
+                <div class="box-h1">
+                    <h1>СТИЛЬ И БЕЗОПАСНОСТЬ — </h1>
+                    <h1 class=" h1-right">ИДЕАЛЬНЫЙ ДУЭТ ВСАДНИКА!</h1>
+                </div>
+                <p class="ban-desc">Наш бренд предлагает широкий ассортимент качественного снаряжения, аксессуаров,
+                    чтобы обеспечить ваш комфорт и здоровье.</p>
+                <a class="btn orange-btn btn-banner" href="catalog.html">Перейти к каталогу</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about-home -->
+    <div class="about-home container my80">
+        <div class="ah-txt" data-aos="fade-right" data-aos-duration="800">
+            <h2>НЕМНОГО О НАС</h2>
+
+            <div class="ah-left">
+                <div class="box-ah">
+                    <p class="ah-name">
+                        НАША МИССИЯ
+                    </p>
+                    <p class="ah-desc">Обеспечить высококачественные товары и услуги для всех, кто увлечен миром
+                        лошадей, от
+                        профессиональных всадников до начинающих любителей.</p>
+                </div>
+
+                <div class="box-ah mt-box-ah">
+                    <p class="ah-name ah-name-down">
+                        НАШ СТИЛЬ
+                    </p>
+                    <div class="ah-desc-box">
+                        <p class="ah-desc">Мы стремимся к высокому качеству товаров, создавая комфортную атмосферу для
+                            клиентов.
+                        </p>
+                        <p class="ah-desc">Наша команда увлечена коневодством и активно делится знаниями, предлагая
+                            современные и качественные решения.
+                        </p>
+                        <p class="ah-desc">Мы ценим долгосрочные отношения с клиентами и заботимся о их благополучии.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <img src="assets/images/about/about.svg" alt="about1" data-aos="fade-right" data-aos-duration="800">
+    </div>
+
+
+    <!-- newcollection -->
+    <div class="newcollection container my80">
+        <h2 data-aos="fade-right" data-aos-duration="800">НОВАЯ КОЛЛЕКЦИЯ</h2>
+        <div class="cat-cards" data-aos="zoom-in-right" data-aos-duration="800">
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/new-coll/1.jpg" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Шлем Star Lady Pure Shine, глянцевый
+                </p>
+                <p class="cat-kateg-home">Шлема</p>
+                <p class="cat-price-home">11 200 ₽</p>
+                <a href="#" class=" btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/new-coll/2.jpg" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Шлем Star Lady Pure Shine
+                </p>
+                <p class="cat-kateg-home">Шлема</p>
+                <p class="cat-price-home">10 598 ₽</p>
+                <a href="#" class=" btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/new-coll/3.jpg" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Шлем Star Lady Pure Shine, глянцевый Midnight
+                </p>
+                <p class="cat-kateg-home">Шлема</p>
+                <p class="cat-price-home">13 678 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/new-coll/4.jpg" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Шлем Star Lady Pure Shine, матовый
+                </p>
+                <p class="cat-kateg-home">Шлема</p>
+                <p class="cat-price-home">15 965 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- catalog-home  -->
+    <div class="catalog-home container my80">
+        <div class="catalog-home-h2-a">
+            <h2 class="cat-home-h2" data-aos="fade-right" data-aos-duration="800">КАТАЛОГ</h2>
+            <a href="catalog.html" data-aos="fade-right" data-aos-duration="800">Перейти к каталогу →</a>
+        </div>
+
+        <div class="cat-cards" data-aos="zoom-in-right" data-aos-duration="800">
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/bot.png" alt="1" class="img-cat-home"></div>
+
+                <p class="cat-name-home">
+                    Ботинки резиновые Levay
+                </p>
+                <p class="cat-kateg-home">Ботинки</p>
+                <p class="cat-price-home">8 998 ₽</p>
+                <a href="tovar.html" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/frak.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Сапоги для верховой езды Tricolore S3311 Smooth Black
+                </p>
+                <p class="cat-kateg-home">Сапоги</p>
+                <p class="cat-price-home">11 598 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/frak2.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Попона хлопковая Cotton
+                </p>
+                <p class="cat-kateg-home">Попоны</p>
+                <p class="cat-price-home">7 678 ₽</p>
+                <a href="pages/tovar.html" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/perch1.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Недоуздок DoublePin Teddyfleece
+                </p>
+                <p class="cat-kateg-home">Недоуздки</p>
+                <p class="cat-price-home">5 965 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/perch2.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Вальтрап выездковый Satin Crystal
+                </p>
+                <p class="cat-kateg-home">Вальтрапы</p>
+                <p class="cat-price-home">9 998 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/perch3.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Вальтрап выездковый Velour Emblem
+                </p>
+                <p class="cat-kateg-home">Вальтрапы</p>
+                <p class="cat-price-home">7 558 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/perch4.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Колокольчики Stingray FauxFur, Heritage 24/25
+                </p>
+                <p class="cat-kateg-home">Бинты</p>
+                <p class="cat-price-home">4 678 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+
+            <div class="cat-card">
+                <div class="cat-card-img"> <img src="assets/images/catalog/sap.png" alt="1" class="img-cat-home">
+                </div>
+                <p class="cat-name-home">
+                    Honey Diet, 20 кг
+                </p>
+                <p class="cat-kateg-home">Корма</p>
+                <p class="cat-price-home">5 965 ₽</p>
+                <a href="#" class="btn-card orange-btn btn-light">Подробнее</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- advantages -->
+    <div class="advantages container">
+        <h2 data-aos="fade-right" data-aos-duration="800">НАШИ ПРЕИМУЩЕСТВА</h2>
+        <div class="advantages-cards">
+            <div class="advantages-card" data-aos="zoom-in-right" data-aos-duration="800">
+                <img src="assets/images/advantages/1.svg" alt="advantages" class="advantages-img">
+                <div class="advantages-name">БЕЗОПАСНОСТЬ И <br>ЭКОЛОГИЧНОСТЬ</div>
+                <p class="advantages-desc">
+                    Наши товары создаются под четким контролем и документацией. Мы ценим наших покупателей и их питомцев
+                </p>
+            </div>
+ 
+            <div class="advantages-card" data-aos="zoom-in-right" data-aos-duration="800">
+                <img src="assets/images/advantages/2.svg" alt="advantages" class="advantages-img">
+                <div class="advantages-name">БЫСТРАЯ ДОСТАВКА </div>
+                <p class="advantages-desc">
+                    Мы понимаем, что время – это деньги. Наша служба доставки обеспечивает максимально быстрое
+                    выполнение заказов
+                </p>
+            </div>
+
+            <div class="advantages-card" data-aos="zoom-in-right" data-aos-duration="800">
+                <img src="assets/images/advantages/3.svg" alt="advantages" class="advantages-img">
+                <div class="advantages-name">ПОДДЕРЖКА КЛИЕНТОВ</div>
+                <p class="advantages-desc">
+                    Наша команда поддержки всегда готова помочь вам с любыми вопросами или проблемами, связанными с
+                    платежами.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- stock -->
+    <div class="stock container">
+
+        <div class="stock-left" data-aos="zoom-in-right" data-aos-duration="800">
+            <div class="stock-txt">
+                <p class="stock-name">СКИДКА 20% НА БРИДЖИ И ЛОНГСЛИВЫ </p>
+                <a href="catalog.html" class="btn orange-btn btn-light btn-stock">Перейти к каталогу</a>
+            </div>
+        </div>
+        <img src="assets/images/stock/stock-r.svg" alt="stock" class="stock-img" data-aos="zoom-in-right" data-aos-duration="800">
+
+    </div>
+
+    <!-- rass -->
+    <div class="rass container my80 mby80">
+        <div class="rass-txt" data-aos="zoom-in-right" data-aos-duration="800">
+            <p class="rass-name">ЗАПОЛНИ ФОРМУ РАССЫЛКИ, ЧТОБЫ НЕ ПРОПУСТИТЬ АКЦИИ И НОВЫЕ КОЛЛЕКЦИИ</p>
+            <form class="rass-form">
+
+                <label class="label-home-email">Ваш email:</label>
+
+                <div class="form-box">
+                    <input type="text" name="emai" placeholder="Введите email">
+                    <a href="#" class="btn orange-btn btn-light rass-btn">Подписаться</a>
+                </div>
+            </form>
+        </div>
+        <img src="assets/images/rass/ras.png" alt="ras" class="img-ras" data-aos="zoom-in-right" data-aos-duration="800">
+
+    </div>
+
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-up">
+                <div class="footer-l">
+                    <a href="index.html" class="a-logo"> <img src="assets/logo/logo.svg" alt="logo" class="logo"></a>
+                    <div class="contacts">
+                        <div class="contact">
+                            <img src="assets/images/footer/phone-call.svg" alt="contact">
+                            <a href="tel:+79874172650">+7 (987) 417-26-50</a>
+                        </div>
+
+                        <div class="contact">
+                            <img src="assets/images/footer/location-pin.svg" alt="contact">
+                            <p class="contact-p">г. Казань, ул. Аграрная 21, 3 этаж</p>
+                        </div>
+
+                        <div class="contact">
+                            <img src="assets/images/footer/phone-call.svg" alt="contact">
+                            <a href="mailto:russian-horse@mail.ru" class="contact-p">russian-horse@mail.ru</a>
+                        </div>
+
+                    </div>
+                    <div class="documents">
+                        <a href="assets/documents/Doc2.docx" download class="conf-f ">Политика конфиденциальности → </a>
+                        <a href="assets/documents/Doc2.docx" download class="conf-f ">ИНН </a>
+                        <a href="assets/documents/Doc2.docx" download class="conf-f ">Аккредитация</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><img src="assets/images/footer/tg.svg" alt="socials"></a>
+                        <a href="#"><img src="assets/images/footer/vk.svg" alt="socials"></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <p class="f-nav-name">
+                        НАВИГАЦИЯ
+                    </p>
+                    <nav class="f-nav">
+                        <a href="about.html">О компании</a>
+                        <a href="catalog.html">Каталог</a>
+                        <a href="contact.html">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-down">
+                <hr class="footer-down-hr">
+                <p class="develop">Горшенина Арина Олеговна, 2025 г.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Регистрация -->
+    <div class="modal hidden" id="regModal">
+        <div class="modal-content container-modal">
+            <div class="modal-reg-content">
+                <img src="assets/images/modals/reg.jpg" alt="reg" class="img-reg">
+                <div class="modal-reg-txt">
+                    <form class="reg-form">
+                        <img src="assets/images/modals/close.png" alt="close" class="close close_reg"
+                            onclick="closeModal()">
+                        <h2>РЕГИСТРАЦИЯ</h2>
+                        <div class="reg-form-box">
+                            <div class="label-gap">
+                                <label>Имя:</label>
+                                <input type="text" placeholder="Введите имя">
+                            </div>
+
+                            <div class="label-gap">
+                                <label>Email:</label>
+                                <input type="text" placeholder="Введите email">
+                            </div>
+
+                            <div class="label-gap">
+                                <label>Пароль:</label>
+                                <input type="text" placeholder="Введите пароль">
+                            </div>
+
+                            <div class="label-gap">
+                                <label>Повторите пароль:</label>
+                                <input type="text" placeholder="Повторите пароль">
+                            </div>
+                            <div class="check-box">
+                                <input type="checkbox">
+                                <p class="check">Я согласен с <a href="assets/documents/Doc2.docx" download>политикой
+                                        конфиденциальности </a>
+                                </p>
+                            </div>
+
+                            <p class="modal-avto">Есть аккаунт? <a href="#">Авторизуйтесь</a></p>
+                            <a class="btn-form orange-btn btn-light btn-modal" href="#">Зарегистироваться</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Авторизация -->
+    <div class="modal1 hidden" id="avtoModal">
+        <div class="modal-content1 modal-content-avto container-modal1">
+            <div class="modal-reg-content1">
+                <img src="assets/images/modals/avto.jpg" alt="reg" class="img-reg1">
+                <div class="modal-reg-txt1">
+                    <form class="reg-form1">
+                        <img src="assets/images/modals/close.png" alt="close" class="close1 close_avto">
+                        <h2>АВТОРИЗАЦИЯ</h2>
+                        <div class="reg-form-box1">
+
+                            <div class="label-gap1">
+                                <label>Email:</label>
+                                <input type="text" placeholder="Введите email">
+                            </div>
+
+                            <div class="label-gap1">
+                                <label>Пароль:</label>
+                                <input type="text" placeholder="Введите пароль">
+                            </div>
+
+                            <p class="modal-avto1">Нет аккаунта? <a href="#">Зарегистируйтесь</a></p>
+                            <a class="btn-form1 orange-btn1 btn-light1 btn-modal1" href="#">Войти</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>

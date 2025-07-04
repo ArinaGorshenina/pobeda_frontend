@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Победа</title>
+    <link rel="shortcut icon" href="assets/logo/logo.svg" type="image/x-icon">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script defer src="assets/js/main.js"></script>
+       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+   <!-- header -->
+    <header class="open">
+        <div class="h-up ">
+            <a href="index.html"><img src="assets/logo/logo.svg" alt="logo" class="logo container"></a>
+        </div>
+        <div class="h-down ">
+            <div class="h-down-box container">
+                <button class="header-burger-btn" id="burger">
+                    <span></span><span></span><span></span>
+                </button>
+                <hr class="h-hr">
+                <p class="conf-p conf-pos-block">Политика конфиденциальности → </p>
+
+                <nav class="h-nav ">
+                    <div class="header-list ul">
+
+                        <div class="li"><a href="about.html">О компании</a></div>
+                        <div class="accordion" id="accordion-1">
+                            <div class="accordion__item">
+                                <div  class="h-accordion accordion__header li">
+                                    <a class="h-list-cat">Каталог</a>
+                                    <div class="submenu accordion__body">
+                                        <div class="submenu-box">
+                                            <div class="submenu-sub">
+                                                <a href="" class="submenu-sub-all">ВСЕ</a>
+                                                <a href="">Шлема</a>
+                                                <a href="">Ботинки</a>
+                                                <a href="">Сапоги</a>
+                                                <a href="">Краги</a>
+                                            </div>
+                                            <div class="submenu-sub">
+                                                <a href="">Лонгсливы</a>
+                                                <a href="">Поло</a>
+                                                <a href="">Бриджи</a>
+                                                <a href="">Рединготы</a>
+                                                <a href="">Фраки</a>
+                                            </div>
+                                            <div class="submenu-sub">
+                                                <a href="">Перчатки</a>
+                                                <a href="">Аксессуары</a>
+                                                <a href="">Хлысты</a>
+                                                <a href="">Гольфы</a>
+                                              
+                                            </div>
+                                    </div>
+
+                            </div>
+                            </div>
+                        </div>
+
+            </div>
+
+            <div class="li"><a href="contact.html">Контакты</a></div>
+            </div>
+            <p class="conf-p conf-pos-none">Политика конфиденциальности → </p>
+            </nav>
+            <div class="avto-reg-box ">
+                <a href="#" class="btn orange-btn" id="regBtn">Регистрация</a>
+                <img src="assets/images/header/avto.svg" alt="avto" class="avto" id="avtoBtn">
+            </div>
+        </div>
+        </div>
+    </header>
+
+    <!-- account-->
+    <div class="account container my80 mby80">
+        <div class="account-l"  data-aos="fade-right" data-aos-duration="800">
+            <h2>ЛИЧНЫЙ КАБИНЕТ</h2>
+            <form class="account-form">
+                <div class="account-form-box">
+                    <div class="label-gap">
+                        <label>Имя:</label>
+                        <input type="text" placeholder="Введите имя, чтобы изменить">
+                    </div>
+
+                    <div class="label-gap">
+                        <label>Email:</label>
+                        <input type="text" placeholder="Введите email, чтобы изменить">
+                    </div>
+
+                    <div class="label-gap">
+                        <label>Пароль:</label>
+                        <input type="text" placeholder="Введите пароль, чтобы изменить">
+                    </div>
+                </div>
+
+                <a class="btn-form orange-btn btn-light" href="#">Сохранить</a>
+
+            </form>
+
+            <h3>Управление рассылками</h3>
+            <div class="acc-rass-box">
+                <div class="acc-rass-box-box">
+                    <p class="acc-rass">Отказаться от рассылок на email</p>
+                    <label class="toggle-switch">
+                        <input type="checkbox" />
+                        <span class="slider"></span>
+                    </label>
+                </div>
+                <a class="btn-acc-rass orange-btn btn-light" href="#">Сохранить</a>
+            </div>
+        </div>
+
+        <div class="account-r">
+            <h2  data-aos="fade-right" data-aos-duration="800">ИСТОРИЯ ЗАКАЗОВ</h2>
+            <div class="history-cards">
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+
+                <div class="history-card" data-aos="zoom-in-right" data-aos-duration="800">
+                    <div class="history-card-img-desc">
+                        <div class="history-card-img"> <img src="assets/images/catalog/bot.jpg" alt="product"></div>
+
+                        <div class="history-desc">
+                            <p class="history-name">Ботинки резиновые Levay</p>
+                            <p class="history-count">Количество: 1</p>
+                            <p class="history-price">8 998 ₽</p>
+                        </div>
+                    </div>
+
+                    <div class="history-status-box">
+                        <p class="history-status">Статус: Отклонено</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pagin-box pagin-box-cat" data-aos="fade-up" data-aos-duration="800">
+                <p class="start-end">В начало</p>
+                <p class="strel">←</p>
+                <div class="num-box">
+                    <p class="num num-active">1</p>
+                    <p class="num">2</p>
+                    <p class="num">3</p>
+                </div>
+                <p class="strel">→</p>
+                <p class="start-end">В конец</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-up">
+                <div class="footer-l">
+                    <a href="index.html" class="a-logo"> <img src="assets/logo/logo.svg" alt="logo" class="logo"></a>
+                    <div class="contacts">
+                        <div class="contact">
+                            <img src="assets/images/footer/phone-call.svg" alt="contact">
+                            <a href="tel:+79874172650">+7 (987) 417-26-50</a>
+                        </div>
+
+                        <div class="contact">
+                            <img src="assets/images/footer/location-pin.svg" alt="contact">
+                            <p class="contact-p">г. Казань, ул. Аграрная 21, 3 этаж</p>
+                        </div>
+
+                        <div class="contact">
+                            <img src="assets/images/footer/phone-call.svg" alt="contact">
+                            <a href="mailto:russian-horse@mail.ru" class="contact-p">russian-horse@mail.ru</a>
+                        </div>
+
+                    </div>
+                    <div class="documents">
+                    <a href="assets/documents/Doc2.docx" download class="conf-f ">Политика конфиденциальности → </a>
+                        <a href="assets/documents/Doc2.docx" download class="conf-f ">ИНН </a>
+                        <a href="assets/documents/Doc2.docx" download class="conf-f ">Аккредитация</a>
+                    </div>
+                    <div class="socials">
+                        <a href="#"><img src="assets/images/footer/tg.svg" alt="socials"></a>
+                        <a href="#"><img src="assets/images/footer/vk.svg" alt="socials"></a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <p class="f-nav-name">
+                        НАВИГАЦИЯ
+                    </p>
+                    <nav class="f-nav">
+                        <a href="pages/about.html">О компании</a>
+                        <a href="pages/catalog.html">Каталог</a>
+                        <a href="pages/contact.html">Контакты</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="footer-down">
+                <hr class="footer-down-hr">
+                <p class="develop">Горшенина Арина Олеговна, 2025 г.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</html>
